@@ -5,8 +5,62 @@
 
 html,
 body {
+  font-size: 1rem;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }
+p {
+  font-size: 1.25rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+h1 {
+  font-size: 2rem;
+  margin-block: 1rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
 
-/* Add styles here! */
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 3.5rem 0;
+}
+
+.intro-chunk {
+  padding: 0 1.5rem;
+  max-width: 450px;
+
+  strong {
+    color: hsl(160deg, 100%, 30%);
+  }
+}
+
+main {
+  padding: 3.5rem 0;
+  background: hsl(0deg, 0%, 40%);
+  border-top: 8px solid hsl(0deg, 0%, 60%);
+}
+
+.indented-heading {
+  margin-left: -2rem;
+  padding: 1rem 2rem;
+  width: fit-content;
+  background: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+.card {
+  padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+  background: white;
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+}
+
+
